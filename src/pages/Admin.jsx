@@ -132,7 +132,6 @@ const Admin = () => {
               <th>Title</th>
 
               <th>Status</th>
-              <th>Position</th>
               <th>Actions</th>
             </tr>
           </thead>
@@ -147,21 +146,20 @@ const Admin = () => {
                     class="rounded-circle"
                   />
                   <div class="ms-3">
-                    <p class="fw-bold mb-1">John Doe</p>
-                    <p class="text-muted mb-0">john.doe@gmail.com</p>
+                    <p class="fw-bold mb-1">Vender</p>
+                    <p class="text-muted mb-0">vender@gmail.com</p>
                   </div>
                 </div>
               </td>
               <td>
-                <p class="fw-normal mb-1">Software engineer</p>
-                <p class="text-muted mb-0">IT department</p>
+                <p class="fw-normal mb-1">Vendor</p>
+                <p class="text-muted mb-0">Medical</p>
               </td>
               <td>
                 <span class="badge bg-danger badge-success rounded-pill d-inline">
                   NOT VERIFIED
                 </span>
               </td>
-              <td>Senior</td>
               <td>
                 <button type="button" class="btn btn-link btn-sm btn-rounded">
                   Certificate
